@@ -34,6 +34,14 @@ body {
     color: #f1f1f1;
     border-radius: 20px;
 }
+.copy {
+    display: flex;
+    flex-direction: row;
+    text-decoration: underline;
+}
+.copy:hover {
+    cursor: pointer;
+}
 .download {
     position: relative;
     font-size: 1.5em;
@@ -67,4 +75,36 @@ body {
     font-weight: 800;
     text-align: center;
     transition: ease-in-out 0.5s;
+}
+.credits {
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    font-family: 'Courier New', Courier, monospace;
+    transform: translateX(-50%);
+    text-decoration: none;
+    color: #aaaaaa;
+    background-color: #2b2b2bb0;
+    padding: 0.3em;
+    border-radius: 10px 10px 0 0;
+}
+.credits::after {
+    content: "aller sur le site web";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding-bottom: 1em;
+    transform: translateY(100%);
+    background-color: #2b2b2bb0;
+    text-decoration: underline;
+    display: none;
+}
+.credits:hover {
+    bottom: 2.1em;
+}
+.credits:hover::after {
+    display: block;
 }
