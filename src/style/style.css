@@ -35,8 +35,6 @@ body {
     border-radius: 20px;
 }
 .copy {
-    display: flex;
-    flex-direction: row;
     text-decoration: underline;
 }
 .copy:hover {
