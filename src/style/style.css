@@ -40,6 +40,11 @@ body {
 .copy:hover {
     cursor: pointer;
 }
+.info {
+    font-size: 0.6em;
+    margin-top: 1em;
+    color: #f1f1f19c;
+}
 .download {
     position: relative;
     font-size: 1.5em;
@@ -102,7 +107,7 @@ body {
     display: none;
 }
 .credits:hover {
-    bottom: 1.6em;
+    bottom: 1.7em;
     opacity: 100%;
 }
 .credits:hover::after {
